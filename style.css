@@ -1,0 +1,54 @@
+/***************************NAVBAR***************************/
+#navbar {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(180, 180, 180);
+    display: flex;
+    align-items: flex-end; /* Align items at the bottom */
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+#n {
+    transform: scale(3);
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+/*******************************************TEXT IN NAVBAR*******************************************/
+#home{
+    position: absolute;
+    left: 1200px;
+    bottom: 0px;
+    transform: scale(1.5);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+   #contact{
+    position: absolute;
+    left: 1300px;
+    bottom: 0px;
+    transform: scale(1.5);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+   #about{
+    position: absolute;
+    left: 1400px;
+    bottom: 0px;
+    transform: scale(1.5);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#nabtext {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%; /* Ensure it takes the full width of the navbar */
+}
+@media (max-width: 800px) {
+    #text{
+        height: 200px;
+        width: 100%px;
+        border: 2px solid black;
+        display: flex;
+    }
+}
